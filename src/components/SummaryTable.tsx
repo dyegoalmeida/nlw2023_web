@@ -1,3 +1,5 @@
+import { HabitDay } from "./HabitDay"
+
 const weekDays = [
   'D',
   'S',
@@ -23,6 +25,15 @@ export function SummaryTable() {
           )
         })}
      </div>
+
+     <div className="grid grid-rows-7 grid-flow-row gap-3">
+        <HabitDay />
+        <HabitDay />
+        <HabitDay />
+        <HabitDay />
+        <HabitDay />
+     </div>
+
     </div>
   )
 }
